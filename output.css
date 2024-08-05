@@ -758,10 +758,6 @@ video {
   height: 2rem;
 }
 
-.h-9 {
-  height: 2.25rem;
-}
-
 .h-\[17px\] {
   height: 17px;
 }
@@ -820,10 +816,6 @@ video {
 
 .w-2\.5 {
   width: 0.625rem;
-}
-
-.w-24 {
-  width: 6rem;
 }
 
 .w-4 {
@@ -1104,10 +1096,6 @@ video {
   border-top-right-radius: 0.75rem;
 }
 
-.rounded-br-none {
-  border-bottom-right-radius: 0px;
-}
-
 .border {
   border-width: 1px;
 }
@@ -1203,11 +1191,6 @@ video {
 .bg-gray-700 {
   --tw-bg-opacity: 1;
   background-color: rgb(55 65 81 / var(--tw-bg-opacity));
-}
-
-.bg-gray-900 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(17 24 39 / var(--tw-bg-opacity));
 }
 
 .bg-green-500 {
@@ -1862,6 +1845,19 @@ hr {
   padding: 7px 18px;
   max-width: 70%;
   margin: 10px auto 0px auto;
+  font-size: 12px;
+  word-wrap: break-word;
+  /* This will ensure long words wrap to the next line */
+  overflow-wrap: break-word;
+}
+
+.admin-pop {
+  color: black;
+  border-radius: 0px 7px 7px 7px;
+  background: #E0E0E0;
+  padding: 7px 18px;
+  max-width: 70%;
+  margin-right: auto;
   font-size: 12px;
   word-wrap: break-word;
   /* This will ensure long words wrap to the next line */
